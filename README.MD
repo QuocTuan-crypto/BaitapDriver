@@ -13,7 +13,7 @@ II. Yêu cầu phần cứng, phần mềm
     Raspberry Pi Zero 2 W, BMP180 kết nối qua I2C, các gói cài đặt cần thiết,...
     +Thêm thiết bị vào Device Tree bằng cách biên dịch file bcm2710-rpi-zero-2-w.dts :
         1.Copy file bcm2710-rpi-zero-2-w.dts vào thư mục boot của raspberryPi
-        2.Nhập vào terminal:
+        2.Tại thư mục boot nhập vào terminal:
         dtc -I dts -O dtb -o bcm2710-rpi-zero-2-w.dtb bcm2710-rpi-zero-2-w.dts
 
 III. Biên dịch và cài đặt
