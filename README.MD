@@ -1,8 +1,8 @@
 Họ và tên thành viên nhóm:
     1.Trần Quốc Tuấn   MSSV:22146445    
-    2.Trần Quốc Thạnh  MSSV:22146394
-    3.Đặng Thành Tài   MSSV:22146398
-    4.Võ Minh Tấn      MSSV:22146402
+    2.Trần Quốc Thạnh  MSSV:22146402
+    3.Đặng Thành Tài   MSSV:22146394
+    4.Võ Minh Tấn      MSSV:22146398
 
 I. Giới thiệu 
 
