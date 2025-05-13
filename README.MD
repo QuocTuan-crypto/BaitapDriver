@@ -18,7 +18,9 @@ II. Yêu cầu phần cứng, phần mềm
 
 III. Biên dịch và cài đặt
 
-    Bước 1: Trên terminal(hoặc các trình sell khác hỗ trợ) nhập make (Yêu cầu kết nối với raspberrypi, các file cùng thư mục, sẽ sinh ra file bmp180_driver.ko)
+    Bước 1: Trên terminal(hoặc các trình sell khác hỗ trợ) nhập:
+    make 
+    (Yêu cầu kết nối với raspberrypi, các file cùng thư mục, sẽ sinh ra file bmp180_driver.ko)
 
     Bước 2: Nạp module bằng cách nhập:
     sudo insmod bmp180_driver.ko
@@ -31,6 +33,10 @@ III. Biên dịch và cài đặt
     Bước 4: chạy bằng cách nhập:
     sudo ./run
     Kết quả hiển thị ví dụ: Temperature: 30.0 C | Pressure: 1007.0 hPa | Altitude: 52.17 m
+
+    Gỡ cài đặt:
+    1. Nhập: sudo rmmod bmp180_driver
+    2. Nhập: make clean 
 
 IV. Ghi chú kỹ thuật
 
